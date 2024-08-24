@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato Starbucks</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<header>
+	<img src="images/logo.png" alt="Starbucks Logo">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="sobre.html">Sobre</a></li>
+		<li><a href="contato.html">Contato</a></li>
+	</ul>
+</header>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<body>
+	<h1 class="contato">Duvidas</h1>
+	<br><br>
+	<form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate
+        accept-charset="UTF-8" target="_blank">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome Completo" required maxlength="100"> <!-- Nome -->
+<br><br>
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required maxlength="100">
+            <br><br>
+			<label for="email"> Telefone:</label>
+            <input type="email" id="email" name="email" placeholder="+55 ( )12345-6789" required maxlength="100">
+
+			<br><br>
+            <label for="decricao">Descrição:</label>
+            <textarea name="descricao" id="descricao" placeholder="Qual sua duvida? Comente" required></textarea>
+
+        </fieldset>
+		<fieldset>
+            <legend>Envio de Loadout</legend>
+            <input type="file" id="foto" name="foto" accept="image/png, image/jpeg" required>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+</body>
+
+</html>
