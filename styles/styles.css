@@ -80,7 +80,7 @@ div img{
     right: 20px; /* Ajuste o espaçamento da borda direita */
     top: 50%; /* Centraliza verticalmente */
     transform: translateY(-50%); /* Ajusta a posição vertical para centralizar corretamente */
-    width: 400px; 
+    width: 250px; 
 }
 div p{
     font-size: 20px;
@@ -173,4 +173,3 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
-
